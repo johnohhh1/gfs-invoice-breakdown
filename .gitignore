@@ -1,0 +1,28 @@
+# Allowlist: invoices and generated workbooks contain business data
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/gfs_breakdown.py
+!/menulink_cost_journal.py
+
+*.pdf
+*.xlsx
+*.xlsx#
+__pycache__/
+
+# Secrets: never commit env files (keep the example template)
+.env
+.env.*
+*.env
+*.env.txt
+.env.txt
+.dev.vars
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+client_secret*.json
